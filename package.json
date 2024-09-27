@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dhtmlx-gantt": "^8.0.10",
+    "frappe-gantt": "^0.8.1",
+    "gantt-elastic": "^1.0.12",
+    "naive-ui": "^2.40.1",
     "vue": "^3.4.37"
   },
   "devDependencies": {
