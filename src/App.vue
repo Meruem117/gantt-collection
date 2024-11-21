@@ -12,9 +12,9 @@
                         <dhtmlx-gantt />
                     </n-card>
                 </n-tab-pane>
-                <n-tab-pane name="gantt-elastic" tab="gantt-elastic" display-directive="if">
+                <n-tab-pane name="gantt-schedule" tab="gantt-schedule" display-directive="if">
                     <n-card class="gantt-card">
-                        <gantt-elastic />
+                        <gantt-schedule />
                     </n-card>
                 </n-tab-pane>
             </n-tabs>
@@ -26,7 +26,7 @@
 import { darkTheme } from 'naive-ui'
 // import FrappeGantt from './components/FrappeGantt.vue'
 import DhtmlxGantt from './components/DhtmlxGantt.vue'
-import GanttElastic from './components/GanttElastic.vue'
+import GanttSchedule from './components/GanttSchedule.vue'
 </script>
 
 <style scoped>

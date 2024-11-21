@@ -10,6 +10,7 @@ declare module 'vue' {
     DhtmlxGantt: typeof import('./src/components/DhtmlxGantt.vue')['default']
     FrappeGantt: typeof import('./src/components/FrappeGantt.vue')['default']
     GanttElastic: typeof import('./src/components/GanttElastic.vue')['default']
+    GanttSchedule: typeof import('./src/components/GanttSchedule.vue')['default']
     NButton: typeof import('naive-ui')['NButton']
     NCard: typeof import('naive-ui')['NCard']
     NConfigProvider: typeof import('naive-ui')['NConfigProvider']
