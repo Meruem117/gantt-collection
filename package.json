@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "dhtmlx-gantt": "^9.0.3",
-    "frappe-gantt": "^0.8.1",
     "gantt-schedule-timeline-calendar": "^3.37.5",
     "naive-ui": "^2.40.1",
     "vfonts": "^0.0.3",

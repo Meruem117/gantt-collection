@@ -643,11 +643,6 @@ fill-range@^7.1.1:
   dependencies:
     to-regex-range "^5.0.1"
 
-frappe-gantt@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/frappe-gantt/-/frappe-gantt-0.8.1.tgz#4e76a257ec3505579ae21d63096c37fdb255e6cd"
-  integrity sha512-281MMJ0N7uct1tBqqjOh0VsClrQOw0wjRRRlAY6eCqGOCDjgZDbzMa2vFqm+oDh+fXODowkHTDEZ5FVDKOjofA==
-
 fsevents@~2.3.2, fsevents@~2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"

@@ -2,11 +2,6 @@
     <n-config-provider :theme="darkTheme">
         <n-layout embedded position="absolute" content-style="padding: 24px;">
             <n-tabs type="line" animated>
-                <!-- <n-tab-pane name="frappe-gantt" tab="frappe-gantt" display-directive="if">
-                    <n-card class="gantt-card">
-                        <frappe-gantt />
-                    </n-card>
-                </n-tab-pane> -->
                 <n-tab-pane name="dhtmlx-gantt" tab="dhtmlx-gantt" display-directive="if">
                     <n-card class="gantt-card">
                         <dhtmlx-gantt />
@@ -24,8 +19,7 @@
 
 <script setup lang="ts">
 import { darkTheme } from 'naive-ui'
-// import FrappeGantt from './components/FrappeGantt.vue'
-import DhtmlxGantt from './components/DhtmlxGantt.vue'
+import DhtmlxGantt from './components/DhtmlxGantt/index.vue'
 import GanttSchedule from './components/GanttSchedule/index.vue'
 </script>
 
