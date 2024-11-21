@@ -26,7 +26,7 @@
 import { darkTheme } from 'naive-ui'
 // import FrappeGantt from './components/FrappeGantt.vue'
 import DhtmlxGantt from './components/DhtmlxGantt.vue'
-import GanttSchedule from './components/GanttSchedule.vue'
+import GanttSchedule from './components/GanttSchedule/index.vue'
 </script>
 
 <style scoped>
