@@ -7,6 +7,9 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    DhtmlxGantt: typeof import('./src/components/DhtmlxGantt.vue')['default']
+    FrappeGantt: typeof import('./src/components/FrappeGantt.vue')['default']
+    GanttElastic: typeof import('./src/components/GanttElastic.vue')['default']
     NButton: typeof import('naive-ui')['NButton']
     NCard: typeof import('naive-ui')['NCard']
     NConfigProvider: typeof import('naive-ui')['NConfigProvider']

@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "dhtmlx-gantt": "^8.0.10",
+    "dhtmlx-gantt": "^9.0.3",
     "frappe-gantt": "^0.8.1",
     "gantt-elastic": "^1.0.12",
     "naive-ui": "^2.40.1",
